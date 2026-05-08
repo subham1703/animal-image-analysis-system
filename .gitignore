@@ -1,0 +1,50 @@
+# ── Dataset (large, download separately) ─────────────────────────────────────
+data/
+animals/
+
+# ── Model weights (large binaries, share via Drive/HF) ───────────────────────
+weights/
+*.pth
+*.pt
+# Exception: keep the placeholder folder structure
+!weights/.gitkeep
+
+# ── Generated evaluation outputs ─────────────────────────────────────────────
+outputs/
+eval_outputs/
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+venv/
+env/
+.venv/
+.env/
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── IDEs ──────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Misc ──────────────────────────────────────────────────────────────────────
+*.log
+/tmp/
